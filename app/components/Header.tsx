@@ -15,7 +15,7 @@ const navLinks = [
   { id: 2, name: "আমাদের সম্পর্কে", path: "/about" },
   { id: 3, name: "সেবাসমূহ", path: "/services" },
   { id: 4, name: "চিকিৎসকগণ", path: "/doctors" },
-  { id: 5, name: "ব্লগ", path: "/blog" },
+  // { id: 5, name: "ব্লগ", path: "/blog" },
   { id: 6, name: "যোগাযোগ", path: "/contact" },
 ];
 
@@ -106,7 +106,7 @@ const Header = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center relative z-50">
             <Image
-              src="/logo.svg"
+              src="/logo.png"
               alt="গণস্বাস্থ্য হোমিও"
               width={160}
               height={40}

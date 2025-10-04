@@ -95,7 +95,7 @@ export default function ContactMap() {
             className="lg:col-span-2 rounded-xl overflow-hidden shadow-lg border border-gray-100 h-[400px] md:h-[500px]"
           >
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d284.4583398425048!2d90.41223393911194!3d23.7302298958373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9369d6de143%3A0xfd14ad962d4243c1!2sWazed%20ali%E2%80%99s%20Mansion!5e1!3m2!1sen!2sbd!4v1746621226054!5m2!1sen!2sbd"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58451.68696225729!2d90.438429!3d23.7034637!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b90010712fbf%3A0x560ab399b2b1b3a6!2z4KaX4Kaj4Ka44KeN4Kas4Ka-4Ka44KeN4Kal4KeN4KavIOCmueCni-CmruCmv-Cmkw!5e0!3m2!1sen!2sbd!4v1759579087748!5m2!1sen!2sbd"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -139,12 +139,12 @@ export default function ContactMap() {
                 <div>
                   <h4 className="font-medium text-gray-900">পূর্ণ ঠিকানা</h4>
                   <p className="text-gray-700 mt-1">
-                    ১২৩, মিরপুর রোড, ঢাকা-১২১৬, বাংলাদেশ
+                    56/1, বায়তুল ভিউ টাওয়ার, (বায়তুল মোকাররম উত্তর গেটের বিপরীতে) লিফট 11, পুরানা পল্টন, ঢাকা 1000
                   </p>
                 </div>
               </div>
 
-              <div className="flex items-start space-x-4">
+              {/* <div className="flex items-start space-x-4">
                 <div className="bg-white p-3 rounded-full shadow-sm">
                   <svg
                     className="h-6 w-6 text-green-600"
@@ -166,7 +166,7 @@ export default function ContactMap() {
                     মিরপুর-১০ গোল চত্বর থেকে পশ্চিম দিকে ৩০০ মিটার
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="flex items-start space-x-4">
                 <div className="bg-white p-3 rounded-full shadow-sm">
@@ -187,9 +187,9 @@ export default function ContactMap() {
                 <div>
                   <h4 className="font-medium text-gray-900">সময়সূচি</h4>
                   <p className="text-gray-700 mt-1">
-                    শনি - বৃহস্পতি: সকাল ৯টা - রাত ৮টা
+                    ঢাকাঃ শনি - সোম: সকাল ৯টা - রাত ১০টা
                     <br />
-                    শুক্রবার: সকাল ১০টা - বিকেল ৫টা
+                    হবিগঞ্জঃ মঙ্গল- বৃহঃ: সকাল ৯টা - রাত ১০টা
                   </p>
                 </div>
               </div>
@@ -220,7 +220,7 @@ export default function ContactMap() {
               </LinkButton>
 
               <LinkButton
-                href="tel:+8801712345678"
+                href="tel:+8801338541445"
                 variant="primary"
                 size="md"
                 className="w-full justify-start"

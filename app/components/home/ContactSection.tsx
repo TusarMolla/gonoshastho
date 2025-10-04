@@ -92,7 +92,7 @@ const ContactSection = () => {
                     ঠিকানা
                   </h3>
                   <p className="text-gray-900 mt-1">
-                    ১২৩, মিরপুর রোড, ঢাকা-১২১৬, বাংলাদেশ
+                    56/1, বায়তুল ভিউ টাওয়ার, (বায়তুল মোকাররম উত্তর গেটের বিপরীতে) লিফট 11, পুরানা পল্টন, ঢাকা 1000
                   </p>
                 </div>
               </div>
@@ -115,8 +115,8 @@ const ContactSection = () => {
                 </div>
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900">ফোন</h3>
-                  <p className="text-gray-900 mt-1">+৮৮০ ১৭১২-৩৪৫৬৭৮</p>
-                  <p className="text-gray-900">+৮৮০ ১৮১৮-৯৮৭৬৫৪</p>
+                  <p className="text-gray-900 mt-1">০১৩৩৮৫৪১৪৪৫</p>
+                  <p className="text-gray-900">০৯৬৭৮৭৭১৯১৩</p>
                 </div>
               </div>
 
@@ -139,9 +139,9 @@ const ContactSection = () => {
                 <div className="ml-4">
                   <h3 className="text-lg font-semibold text-gray-900">ইমেইল</h3>
                   <p className="text-gray-900 mt-1">
-                    info@gonoshastho-homeo.com
+                    gonosasthohomeohal@gmail.com
                   </p>
-                  <p className="text-gray-900">support@gonoshastho-homeo.com</p>
+                  {/* <p className="text-gray-900">support@gonoshastho-homeo.com</p> */}
                 </div>
               </div>
 
@@ -166,10 +166,10 @@ const ContactSection = () => {
                     খোলা থাকার সময়
                   </h3>
                   <p className="text-gray-900 mt-1">
-                    শনি - বৃহস্পতি: সকাল ৯টা - রাত ৮টা
+                   ঢাকাঃ শনি - সোম: সকাল ৯টা - রাত ১০টা
                   </p>
                   <p className="text-gray-900">
-                    শুক্রবার: সকাল ১০টা - বিকেল ৫টা
+                  হবিগঞ্জঃ মঙ্গল- বৃহঃ: সকাল ৯টা - রাত ১০টা
                   </p>
                 </div>
               </div>

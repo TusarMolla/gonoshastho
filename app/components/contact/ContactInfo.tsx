@@ -109,10 +109,10 @@ export default function ContactInfo() {
 
               <h3 className="text-xl font-bold text-gray-900 mb-2">ঠিকানা</h3>
               <p className="text-gray-700 mb-4">
-                ১২৩, মিরপুর রোড, ঢাকা-১২১৬, বাংলাদেশ
+                56/1, বায়তুল ভিউ টাওয়ার, (বায়তুল মোকাররম উত্তর গেটের বিপরীতে) লিফট 11, পুরানা পল্টন, ঢাকা 1000
               </p>
               <Link
-                href="https://maps.google.com"
+                href="https://maps.app.goo.gl/hEAiRU7d1FwNM4ZF7"
                 target="_blank"
                 className="inline-flex items-center text-green-600 hover:text-green-700 font-medium"
               >
@@ -161,7 +161,7 @@ export default function ContactInfo() {
                   href="tel:+8801712345678"
                   className="hover:text-green-600"
                 >
-                  +৮৮০ ১৭১২-৩৪৫৬৭৮
+                  ০১৩৩৮৫৪১৪৪৫
                 </Link>
               </p>
               <p className="text-gray-700 mb-1">
@@ -169,17 +169,17 @@ export default function ContactInfo() {
                   href="tel:+8801818987654"
                   className="hover:text-green-600"
                 >
-                  +৮৮০ ১৮১৮-৯৮৭৬৫৪
+                  ০৯৬৭৮৭৭১৯১৩
                 </Link>
               </p>
-              <p className="text-gray-700 mb-4">
+              {/* <p className="text-gray-700 mb-4">
                 <Link
                   href="tel:+8801912345678"
                   className="hover:text-green-600"
                 >
                   +৮৮০ ১৯১২-৩৪৫৬৭৮
                 </Link>
-              </p>
+              </p> */}
               <Link
                 href="tel:+8801712345678"
                 className="inline-flex items-center text-green-600 hover:text-green-700 font-medium"
@@ -224,20 +224,20 @@ export default function ContactInfo() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">ইমেইল</h3>
               <p className="text-gray-700 mb-1">
                 <Link
-                  href="mailto:info@gonoshastho-homeo.com"
+                  href="mailto:gonosasthohomeohal@gmail.com"
                   className="hover:text-green-600"
                 >
-                  info@gonoshastho-homeo.com
+                  gonosasthohomeohal@gmail.com
                 </Link>
               </p>
-              <p className="text-gray-700 mb-4">
+              {/* <p className="text-gray-700 mb-4">
                 <Link
                   href="mailto:support@gonoshastho-homeo.com"
                   className="hover:text-green-600"
                 >
                   support@gonoshastho-homeo.com
                 </Link>
-              </p>
+              </p> */}
               <Link
                 href="mailto:info@gonoshastho-homeo.com"
                 className="inline-flex items-center text-green-600 hover:text-green-700 font-medium"
@@ -281,22 +281,15 @@ export default function ContactInfo() {
 
               <h3 className="text-xl font-bold text-gray-900 mb-2">সময়সূচি</h3>
               <div className="space-y-2 mb-4">
-                <div className="flex justify-between">
-                  <span className="text-gray-700">শনি - বৃহস্পতি:</span>
+                
                   <span className="text-gray-900 font-medium">
-                    সকাল ৯টা - রাত ৮টা
+                    সকাল ৯টা - রাত ১০টা
                   </span>
-                </div>
-                <div className="flex justify-between">
-                  <span className="text-gray-700">শুক্রবার:</span>
-                  <span className="text-gray-900 font-medium">
-                    সকাল ১০টা - বিকেল ৫টা
-                  </span>
-                </div>
-                <div className="flex justify-between">
+                
+                {/* <div className="flex justify-between">
                   <span className="text-gray-700">সরকারি ছুটি:</span>
                   <span className="text-gray-900 font-medium">বন্ধ</span>
-                </div>
+                </div> */}
               </div>
               <Link
                 href="/appointment"
@@ -328,7 +321,7 @@ export default function ContactInfo() {
           </h3>
           <div className="flex justify-center space-x-4">
             <Link
-              href="#"
+              href="https://www.facebook.com/share/19vJEqrVZq/"
               className="w-12 h-12 bg-green-100 hover:bg-green-200 text-green-700 rounded-full flex items-center justify-center transition-colors"
             >
               <svg

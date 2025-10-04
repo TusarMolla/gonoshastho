@@ -123,7 +123,7 @@ export default function ContactHero() {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900">৯টা-৮টা</h3>
+            <h3 className="text-2xl font-bold text-gray-900">২৪ঘন্টা</h3>
             <p className="text-sm text-gray-600">সেবা প্রদানের সময়</p>
           </div>
 
@@ -143,7 +143,7 @@ export default function ContactHero() {
                 />
               </svg>
             </div>
-            <h3 className="text-2xl font-bold text-gray-900">৩টি</h3>
+            <h3 className="text-2xl font-bold text-gray-900">২টি</h3>
             <p className="text-sm text-gray-600">সরাসরি কল লাইন</p>
           </div>
 

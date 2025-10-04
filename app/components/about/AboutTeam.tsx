@@ -165,7 +165,7 @@ export default function AboutTeam() {
                     ঢাকা চেম্বার
                   </h4>
                   <p className="text-gray-700">
-                    ৫ম তলা, বাইতুল ভিউ টাওয়ার,
+                     56/1, বায়তুল ভিউ টাওয়ার, (বায়তুল মোকাররম উত্তর গেটের বিপরীতে) লিফট 11
                     <br />
                     পুরানা পল্টন, ঢাকা-১০০০
                   </p>
@@ -175,7 +175,7 @@ export default function AboutTeam() {
                   <h4 className="text-lg font-semibold text-gray-900 mb-2">
                     হবিগঞ্জ চেম্বার
                   </h4>
-                  <p className="text-gray-700">শ্মশানঘাট, হবিগঞ্জ</p>
+                  <p className="text-gray-700">পপুলার জেনারেল হসপিটাল, নতুন বাসস্টান্ড, হবিগঞ্জ</p>
                 </div>
 
                 <div className="pt-4">
