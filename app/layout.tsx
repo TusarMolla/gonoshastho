@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "গণস্বাস্থ্য হোমিও - আধুনিক হোমিওপ্যাথিক চিকিৎসা কেন্দ্র",
+  icons: {
+         icon: '/logo.png',// path relative to public folder
+       },
   description:
     "গণস্বাস্থ্য হোমিও বাংলাদেশের অন্যতম সেরা হোমিওপ্যাথিক চিকিৎসা কেন্দ্র। আমরা প্রাকৃতিক উপায়ে সম্পূর্ণরূপে চিকিৎসা করি।",
 };
@@ -28,7 +31,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="bn">
+    <html lang="bn"> 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
