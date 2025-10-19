@@ -14,7 +14,7 @@ const navLinks = [
   { id: 1, name: "হোম", path: "/" },
   { id: 2, name: "আমাদের সম্পর্কে", path: "/about" },
   { id: 3, name: "সেবাসমূহ", path: "/services" },
-  { id: 4, name: "চিকিৎসকগণ", path: "/doctors" },
+  // { id: 4, name: "চিকিৎসকগণ", path: "/doctors" },
   // { id: 5, name: "ব্লগ", path: "/blog" },
   { id: 6, name: "যোগাযোগ", path: "/contact" },
 ];
@@ -129,7 +129,7 @@ const Header = () => {
 
           {/* Appointment Button */}
           <LinkButton
-            href="/appointment"
+            href="https://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cd"
             variant="primary"
             size="sm"
             className="hidden md:inline-flex"
@@ -221,7 +221,7 @@ const Header = () => {
                     variants={itemVariants}
                   >
                     <LinkButton
-                      href="/appointment"
+                      href="https://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cd"
                       variant="primary"
                       size="lg"
                       className="w-full justify-center text-lg py-4"

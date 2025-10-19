@@ -29,7 +29,7 @@ export default function AdminDashboard() {
 
   const fetchAppointments = async () => {
     try {
-      const response = await fetch("/api/appointments");
+      const response = await fetch("/apihttps://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cds");
       const data = await response.json();
       setAppointments(data);
     } catch (error) {

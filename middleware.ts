@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
 export function middleware(request: NextRequest) {
-  // Get the pathname of the request (e.g. /, /admin, /admin/appointments)
+  // Get the pathname of the request (e.g. /, /admin, /adminhttps://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cds)
   const path = request.nextUrl.pathname;
 
   // Define public paths that don't require authentication

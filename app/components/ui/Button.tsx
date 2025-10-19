@@ -291,127 +291,43 @@ export const LinkButton = forwardRef<HTMLAnchorElement, LinkButtonProps>(
       const link = linkInternalRef.current;
       if (!link) return;
 
-      // Hover animation
       const handleMouseEnter = () => {
-        gsap.to(link, {
-          y: -5,
-          scale: 1.02,
-          duration: 0.3,
-          ease: "power1.out",
-        });
+        gsap.to(link, { y: -5, scale: 1.02, duration: 0.3, ease: "power1.out" });
       };
-
       const handleMouseLeave = () => {
-        gsap.to(link, {
-          y: 0,
-          scale: 1,
-          duration: 0.3,
-          ease: "power1.out",
-        });
+        gsap.to(link, { y: 0, scale: 1, duration: 0.3, ease: "power1.out" });
       };
-
-      // Click animation with ripple effect
-      const handleMouseDown = (e: MouseEvent) => {
-        gsap.to(link, {
-          scale: 0.98,
-          duration: 0.1,
-          ease: "power1.in",
-        });
-
-        createRipple(e, link);
-      };
-
-      const handleMouseUp = () => {
-        gsap.to(link, {
-          scale: 1.02,
-          duration: 0.1,
-          ease: "elastic.out(1, 0.5)",
-        });
-      };
-
-      // Ripple effect function
-      const createRipple = (e: MouseEvent, element: HTMLElement) => {
-        const rect = element.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-
-        const ripple = document.createElement("div");
-        ripple.className = "btn-ripple";
-        ripple.style.left = `${x}px`;
-        ripple.style.top = `${y}px`;
-        element.appendChild(ripple);
-
-        // Animate ripple
-        ripple.classList.add("animate-ripple");
-
-        // Clean up the ripple
-        setTimeout(() => {
-          if (ripple.parentNode === element) {
-            element.removeChild(ripple);
-          }
-        }, 700);
-      };
-
-      // Add event listeners
       link.addEventListener("mouseenter", handleMouseEnter);
       link.addEventListener("mouseleave", handleMouseLeave);
-      link.addEventListener("mousedown", handleMouseDown as EventListener);
-      link.addEventListener("mouseup", handleMouseUp);
-
-      // Cleanup
       return () => {
         link.removeEventListener("mouseenter", handleMouseEnter);
         link.removeEventListener("mouseleave", handleMouseLeave);
-        link.removeEventListener("mousedown", handleMouseDown as EventListener);
-        link.removeEventListener("mouseup", handleMouseUp);
       };
     }, []);
 
+    // Detect external link
+    const isExternal =
+      href && (href.startsWith("http://") || href.startsWith("https://"));
+
+    const commonProps = {
+      ref: linkInternalRef,
+      className: twMerge(getBaseStyles(variant, size, fullWidth), className),
+      ...props,
+    };
+
+    if (isExternal) {
+      // 🔗 External link: use <a>
+      return (
+        <a href={href} target="_blank" rel="noopener noreferrer" {...commonProps}>
+          {children}
+        </a>
+      );
+    }
+
+    // 🏠 Internal link: use Next.js <Link>
     return (
-      <Link
-        href={href}
-        ref={linkInternalRef}
-        className={twMerge(getBaseStyles(variant, size, fullWidth), className)}
-        {...props}
-      >
-        <span className={getContentStyles(variant, iconPosition)}>
-          {/* {iconPosition === "left" &&
-            (icon || (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 opacity-0 translate-x-2 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M15 19l-7-7 7-7"
-                />
-              </svg>
-            ))} */}
-          <span>{children}</span>
-          {/* {iconPosition === "right" &&
-            (icon || (
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-4 w-4 opacity-0 -translate-x-2 transition-all duration-500 group-hover:opacity-100 group-hover:translate-x-0"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            ))} */}
-        </span>
-        <div className={getOverlayStyles(variant)}></div>
+      <Link href={href || "#"} {...commonProps}>
+        {children}
       </Link>
     );
   }

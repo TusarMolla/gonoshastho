@@ -87,7 +87,7 @@ export default function ServicesList() {
 
   const handleServiceSelect = (symptom: string) => {
     // Navigate to appointment page with the selected symptom
-    router.push(`/appointment?symptom=${encodeURIComponent(symptom)}`);
+    router.push(`https://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cd?symptom=${encodeURIComponent(symptom)}`);
   };
 
   return (

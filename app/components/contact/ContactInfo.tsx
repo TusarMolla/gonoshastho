@@ -227,7 +227,7 @@ export default function ContactInfo() {
                   href="mailto:gonosasthohomeohal@gmail.com"
                   className="hover:text-green-600"
                 >
-                  gonosasthohomeohal@gmail.com
+                  gonosasthohomeohall@gmail.com
                 </Link>
               </p>
               {/* <p className="text-gray-700 mb-4">
@@ -292,7 +292,7 @@ export default function ContactInfo() {
                 </div> */}
               </div>
               <Link
-                href="/appointment"
+                href="https://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cd"
                 className="inline-flex items-center text-green-600 hover:text-green-700 font-medium"
               >
                 <span>অ্যাপয়েন্টমেন্ট নিন</span>
