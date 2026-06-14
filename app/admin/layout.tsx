@@ -15,7 +15,7 @@ import Cookies from "js-cookie";
 
 const navItems = [
   { name: "Dashboard", href: "/admin", icon: FiHome },
-  { name: "Appointments", href: "/adminhttps://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cds", icon: FiCalendar },
+  { name: "Appointments", href: "/adminhttps://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8s", icon: FiCalendar },
   { name: "Patients", href: "/admin/patients", icon: FiUsers },
   { name: "Settings", href: "/admin/settings", icon: FiSettings },
 ];

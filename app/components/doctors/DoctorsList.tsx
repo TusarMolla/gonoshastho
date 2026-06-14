@@ -328,7 +328,7 @@ export default function DoctorsList() {
                     </div>
 
                     <Link
-                      href="https://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cd"
+                      href="https://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8"
                       className="inline-flex items-center justify-center w-full bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-md transition-colors"
                     >
                       <span>অ্যাপয়েন্টমেন্ট নিন</span>

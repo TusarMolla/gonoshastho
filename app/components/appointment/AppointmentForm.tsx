@@ -151,7 +151,7 @@ const AppointmentForm: React.FC<AppointmentFormProps> = ({
         console.log("Submitting form data:", data);
 
         // Make API call to create appointment
-        const response = await fetch("/apihttps://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cds", {
+        const response = await fetch("/apihttps://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8s", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

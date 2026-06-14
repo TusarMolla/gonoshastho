@@ -129,7 +129,7 @@ const Header = () => {
 
           {/* Appointment Button */}
           <LinkButton
-            href="https://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cd"
+            href="/appointment"
             variant="primary"
             size="sm"
             className="hidden md:inline-flex"
@@ -221,7 +221,7 @@ const Header = () => {
                     variants={itemVariants}
                   >
                     <LinkButton
-                      href="https://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cd"
+                      href="https://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8"
                       variant="primary"
                       size="lg"
                       className="w-full justify-center text-lg py-4"

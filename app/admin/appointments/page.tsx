@@ -40,7 +40,7 @@ export default function AppointmentsPage() {
 
   const fetchAppointments = async () => {
     try {
-      const response = await fetch("/apihttps://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cds");
+      const response = await fetch("/apihttps://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8s");
       const data = await response.json();
       setAppointments(data);
     } catch (error) {
@@ -52,7 +52,7 @@ export default function AppointmentsPage() {
 
   const updateAppointmentStatus = async (id: string, newStatus: string) => {
     try {
-      const response = await fetch(`/apihttps://drsmsarwar.com/site/apointment/newappointment?partner=504096ea-ca24-446c-9caf-59f8699e33cds/${id}`, {
+      const response = await fetch(`/apihttps://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8s/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
