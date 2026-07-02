@@ -232,7 +232,7 @@ export default function ContactFAQ() {
             করুন। আমাদের দক্ষ টিম সর্বদা আপনাকে সাহায্য করতে প্রস্তুত।
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <LinkButton href="tel:+8801712345678" variant="secondary" size="lg">
+            <LinkButton href="tel:+8801338541445" variant="secondary" size="lg">
               কল করুন
             </LinkButton>
             <LinkButton href="#contact-form" variant="primary" size="lg">

@@ -135,7 +135,7 @@ export default function DoctorsAppointment() {
 
               <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4 justify-center">
                 <Link
-                  href="https://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8"
+                  href="/appointment"
                   className="inline-flex items-center justify-center px-8 py-4 bg-white text-green-700 text-lg font-medium rounded-md shadow-md hover:bg-green-50 transition-colors duration-300"
                 >
                   <span>অ্যাপয়েন্টমেন্ট নিন</span>

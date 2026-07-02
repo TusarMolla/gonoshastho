@@ -215,7 +215,7 @@ const Footer = () => {
             </address>
             <div className="mt-4">
               <Link
-                href="https://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8"
+                href="/appointment"
                 className="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-4 rounded-md transition-colors inline-block"
               >
                 Appointment

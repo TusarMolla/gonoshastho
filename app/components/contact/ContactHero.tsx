@@ -100,7 +100,7 @@ export default function ContactHero() {
           <LinkButton href="#contact-form" variant="primary" size="lg">
             মেসেজ পাঠান
           </LinkButton>
-          <LinkButton href="tel:+8801712345678" variant="secondary" size="lg">
+          <LinkButton href="tel:+8801338541445" variant="secondary" size="lg">
             কল করুন
           </LinkButton>
         </div>

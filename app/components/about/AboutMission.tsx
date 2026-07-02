@@ -101,7 +101,7 @@ export default function AboutMission() {
               </div>
             </div>
 
-            <LinkButton href="https://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8" variant="primary">
+            <LinkButton href="/appointment" variant="primary">
               অ্যাপয়েন্টমেন্ট নিন
             </LinkButton>
           </div>

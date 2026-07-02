@@ -1,11 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // ✅ শেয়ার হোস্টিং-এর জন্য Static Export
   output: "export",
+  
   images: {
     domains: ["i.ibb.co"],
-    unoptimized: true,
+    unoptimized: true, // Static export এর জন্য প্রয়োজন
     remotePatterns: [
       {
         protocol: "https",
@@ -13,11 +14,24 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // comment those up cuz we are working on server also, bellow code's just for static website.
-  // output: "export",
-  // basePath: "",
-  // assetPrefix: undefined,
-  // trailingSlash: true,
+  
+  // ✅ Static export এর জন্য trailing slash
+  trailingSlash: true,
+  
+  // ✅ React Strict Mode
+  reactStrictMode: true,
+  
+  // ✅ SWC Minifier
+  swcMinify: true,
+  
+  // ✅ কম্প্রেশন
+  compress: true,
+  
+  // ✅ পাওয়ার্ড বাই হেডার বন্ধ
+  poweredByHeader: false,
+  
+  // ✅ ফন্ট অপটিমাইজ
+  optimizeFonts: true,
 };
 
 export default nextConfig;

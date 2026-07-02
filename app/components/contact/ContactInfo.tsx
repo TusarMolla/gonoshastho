@@ -158,7 +158,7 @@ export default function ContactInfo() {
               </h3>
               <p className="text-gray-700 mb-1">
                 <Link
-                  href="tel:+8801712345678"
+                  href="tel:+8801338541445"
                   className="hover:text-green-600"
                 >
                   ০১৩৩৮৫৪১৪৪৫
@@ -181,7 +181,7 @@ export default function ContactInfo() {
                 </Link>
               </p> */}
               <Link
-                href="tel:+8801712345678"
+                href="tel:+8801338541445"
                 className="inline-flex items-center text-green-600 hover:text-green-700 font-medium"
               >
                 <span>কল করুন</span>
@@ -224,7 +224,7 @@ export default function ContactInfo() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">ইমেইল</h3>
               <p className="text-gray-700 mb-1">
                 <Link
-                  href="mailto:gonosasthohomeohal@gmail.com"
+                  href="mailto:gonosasthohomeo.bd@gmail.com"
                   className="hover:text-green-600"
                 >
                   gonosasthohomeo.bd@gmail.com
@@ -292,7 +292,7 @@ export default function ContactInfo() {
                 </div> */}
               </div>
               <Link
-                href="https://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8"
+                href="/appointment"
                 className="inline-flex items-center text-green-600 hover:text-green-700 font-medium"
               >
                 <span>অ্যাপয়েন্টমেন্ট নিন</span>
@@ -321,7 +321,7 @@ export default function ContactInfo() {
           </h3>
           <div className="flex justify-center space-x-4">
             <Link
-              href="https://www.facebook.com/share/19vJEqrVZq/"
+              href="https://www.facebook.com/gonosasthohomeo.bdcom/"
               className="w-12 h-12 bg-green-100 hover:bg-green-200 text-green-700 rounded-full flex items-center justify-center transition-colors"
             >
               <svg

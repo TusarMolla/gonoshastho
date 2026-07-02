@@ -128,7 +128,7 @@ export default function DoctorsHero() {
                 <LinkButton href="#doctors-list" variant="primary" size="md">
                   চিকিৎসকদের দেখুন
                 </LinkButton>
-                <LinkButton href="https://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8" variant="secondary" size="md">
+                <LinkButton href="/appointment" variant="secondary" size="md">
                   অ্যাপয়েন্টমেন্ট নিন
                 </LinkButton>
               </div>

@@ -615,7 +615,7 @@ const Hero = () => {
             আনি হারিয়ে যাওয়া আশাও।”
           </p>
           <div className="flex flex-wrap gap-4 justify-center md:justify-start">
-            <LinkButton href="https://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8" variant="primary" size="md">
+            <LinkButton href="/appointment" variant="primary" size="md">
               Book Appointment
             </LinkButton>
             <LinkButton href="/services" variant="secondary" size="md">

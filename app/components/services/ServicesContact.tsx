@@ -285,7 +285,7 @@ export default function ServicesContact() {
               </div>
 
               <div className="space-x-4 max-xl:space-y-4">
-                <LinkButton href="https://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8" variant="primary" size="lg">
+                <LinkButton href="/appointment" variant="primary" size="lg">
                   অ্যাপয়েন্টমেন্ট নিন
                 </LinkButton>
                 <LinkButton href="/contact" variant="secondary" size="lg">

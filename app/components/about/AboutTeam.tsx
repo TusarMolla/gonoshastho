@@ -142,7 +142,7 @@ export default function AboutTeam() {
                 </div>
 
                 <LinkButton
-                  href="https://drsmsarwar.com/site/apointment/newappointment?partner=5ca44e6a-6baa-4ef4-9628-dabaf232c5d8"
+                  href="/appointment"
                   variant="outline"
                   className="w-full"
                 >
